@@ -1,0 +1,32 @@
+---
+title: "Day3_Session2"
+format: html
+editor: visual
+---
+
+## Vectors in R
+
+```{r}
+#creating a vector 
+marmots <- c("blue", "green", 4, "yellow", TRUE)
+#check the class 
+#in a vector class has to be the same so if they are not they will go to the most flexible category so they are the same thing
+class(marmots)
+#call something back to show it underneath
+marmots
+```
+
+## Create a Numeric Vector
+
+```{r}
+#creating a numeric vector
+pika <- c(12.4, 6.8, 2.9, 8.8, 5)
+#hint is shown in environment next to []
+#class is often run just in console
+class(pika)
+```
+
+```{r}
+#to make something a class of integer use a capital L after the number
+bear <- c(20L, 3L, 18L)
+```
