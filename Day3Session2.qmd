@@ -30,3 +30,23 @@ class(pika)
 #to make something a class of integer use a capital L after the number
 bear <- c(20L, 3L, 18L)
 ```
+
+### Vector addition and subtraction
+
+```{r}
+ringtail <- c(4.3, 8.9, 2.6, 7.1)
+
+fox <- c(3, 5, 6, 7)
+
+ringtail_fox <- ringtail + fox
+
+ringtail_fox
+
+ringtail_minus_fox <- ringtail - fox
+
+#scalar multiplier
+100 * ringtail
+
+#dot product
+ringtail %*% fox
+```
